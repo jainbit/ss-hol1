@@ -4,7 +4,7 @@ Name : 2.c
 Author : Harsh Jain
 Description : Write a C, Ansi-style program to create an 
               infinite background process and inspect it using /proc.
-Date : 19th Sep, 2026
+Date : 14th Sep, 2026.
 ============================================================================
 */
 
@@ -29,35 +29,25 @@ harshjain@lima-default:~/ss_hol-1/2$ gcc 2.c
 
 # Run as background process
 harshjain@lima-default:~/ss_hol-1/2$ ./a.out &
-[1] 33570
+[1] 587
 
 # Inspect process details from /proc
-harshjain@lima-default:~/ss_hol-1/2$ cat /proc/33570/status
+harshjain@lima-default:~/ss_hol-1/2$ cat /proc/587/status
 Name:   a.out
-Umask:  0002
 State:  S (sleeping)
-Tgid:   33570
-Pid:    33570
-PPid:   32519
-TracerPid:      0
-Uid:    501     501     501     501
-Gid:    1000    1000    1000    1000
-FDSize: 256
-Groups: 999 1000
-...
-Threads:        1
-VmSize:     3228 kB
-VmRSS:      1356 kB
+Pid:    587
+PPid:   632
 ...
 
 # Check command line
-harshjain@lima-default:~/ss_hol-1/2$ cat /proc/33570/cmdline
+harshjain@lima-default:~/ss_hol-1/2$ cat /proc/587/cmdline
 ./a.out
 
 # Kill the background process
-harshjain@lima-default:~/ss_hol-1/2$ kill 33570
+harshjain@lima-default:~/ss_hol-1/2$ kill 587
 
 ----------------------------------------------------------------------------
 
 ============================================================================
 */
+
