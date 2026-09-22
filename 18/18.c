@@ -67,7 +67,7 @@ Sample Output:
 ----------------------------------------------------------------------------
 harshjain@lima-default:~/ss_hol-1$ mkdir 18
 harshjain@lima-default:~/ss_hol-1$ cd 18
-harshjain@lima-default:~/ss_hol-1/18$ vim 18.c
+harshjain@lima-default:~/ss_hol-1/18$ touch 18.c
 harshjain@lima-default:~/ss_hol-1/18$ gcc 18.c
 harshjain@lima-default:~/ss_hol-1/18$ ./a.out
 Enter record number to lock (0-2): 1

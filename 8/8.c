@@ -39,7 +39,7 @@ Sample Output:
 ----------------------------------------------------------------------------
 harshjain@lima-default:~/ss_hol-1$ mkdir 8
 harshjain@lima-default:~/ss_hol-1$ cd 8
-harshjain@lima-default:~/ss_hol-1/8$ vim 8.c
+harshjain@lima-default:~/ss_hol-1/8$ touch 8.c
 harshjain@lima-default:~/ss_hol-1/8$ touch f1.txt
 harshjain@lima-default:~/ss_hol-1/8$ echo "hi this is f1 file" > f1.txt
 harshjain@lima-default:~/ss_hol-1/8$ gcc 8.c

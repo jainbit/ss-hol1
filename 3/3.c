@@ -37,7 +37,7 @@ Sample Output:
 harshjain@lima-default:~/ss_hol-1/2$ cd ..
 harshjain@lima-default:~/ss_hol-1$ mkdir 3
 harshjain@lima-default:~/ss_hol-1$ cd 3
-harshjain@lima-default:~/ss_hol-1/3$ vim 3.c
+harshjain@lima-default:~/ss_hol-1/3$ touch 3.c
 harshjain@lima-default:~/ss_hol-1/3$ gcc 3.c
 harshjain@lima-default:~/ss_hol-1/3$ ./a.out
 File created successfully. File Descriptor: 3

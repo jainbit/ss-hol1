@@ -39,7 +39,7 @@ int main() {
 Sample Output:
 ----------------------------------------------------------------------------
 harshjain@lima-default:~/ss_hol-1$ cd 10
-harshjain@lima-default:~/ss_hol-1/10$ vim 10.c
+harshjain@lima-default:~/ss_hol-1/10$ touch 10.c
 harshjain@lima-default:~/ss_hol-1/10$ gcc 10.c
 harshjain@lima-default:~/ss_hol-1/10$ ./a.out
 harshjain@lima-default:~/ss_hol-1/10$ ls -l hole.txt

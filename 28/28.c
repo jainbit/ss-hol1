@@ -29,7 +29,7 @@ Sample Output:
 ----------------------------------------------------------------------------
 harshjain@lima-default:~/ss_hol-1$ mkdir 28
 harshjain@lima-default:~/ss_hol-1$ cd 28
-harshjain@lima-default:~/ss_hol-1/28$ vim 28.c
+harshjain@lima-default:~/ss_hol-1/28$ touch 28.c
 harshjain@lima-default:~/ss_hol-1/28$ gcc 28.c
 harshjain@lima-default:~/ss_hol-1/28$ ./a.out
 SCHED_FIFO: min priority = 1, max priority = 99

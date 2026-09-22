@@ -47,7 +47,7 @@ Sample Output:
 ----------------------------------------------------------------------------
 
 harshjain@lima-default:~/ss_hol-1$ cd 14
-harshjain@lima-default:~/ss_hol-1/14$ vim 14.c
+harshjain@lima-default:~/ss_hol-1/14$ touch 14.c
 harshjain@lima-default:~/ss_hol-1/14$ gcc 14.c
 harshjain@lima-default:~/ss_hol-1/14$ ./a.out
 File type of 'file1.txt': Regular File

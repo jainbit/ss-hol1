@@ -25,7 +25,7 @@ Sample Output:
 ----------------------------------------------------------------------------
 harshjain@lima-default:~/ss_hol-1$ mkdir 15
 harshjain@lima-default:~/ss_hol-1$ cd 15
-harshjain@lima-default:~/ss_hol-1/15$ vim 15.c
+harshjain@lima-default:~/ss_hol-1/15$ touch 15.c
 harshjain@lima-default:~/ss_hol-1/15$ gcc 15.c
 harshjain@lima-default:~/ss_hol-1/15$ ./a.out
 

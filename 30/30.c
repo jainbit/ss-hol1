@@ -58,7 +58,7 @@ int main(int argc, char *argv[]) {
 ============================================================================
 Sample Output:
 ----------------------------------------------------------------------------
-harshjain@lima-default:~/ss_hol-1/30$ vim 30.c
+harshjain@lima-default:~/ss_hol-1/30$ touch 30.c
 harshjain@lima-default:~/ss_hol-1/30$ gcc.c
 gcc.c: command not found
 harshjain@lima-default:~/ss_hol-1/30$ gcc 30.c

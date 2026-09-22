@@ -36,7 +36,7 @@ Sample Output:
 ----------------------------------------------------------------------------
 
 harshjain@lima-default:~/ss_hol-1$ cd 19
-harshjain@lima-default:~/ss_hol-1/19$ vim 19.c
+harshjain@lima-default:~/ss_hol-1/19$ touch 19.c
 harshjain@lima-default:~/ss_hol-1/19$ gcc 19.c
 harshjain@lima-default:~/ss_hol-1/19$ ./a.out
 Process ID: 906

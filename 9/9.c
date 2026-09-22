@@ -51,7 +51,7 @@ Sample Output:
 ----------------------------------------------------------------------------
 harshjain@lima-default:~/ss_hol-1$ mkdir 9
 harshjain@lima-default:~/ss_hol-1$ cd 9
-harshjain@lima-default:~/ss_hol-1/9$ vim 9.c
+harshjain@lima-default:~/ss_hol-1/9$ touch 9.c
 harshjain@lima-default:~/ss_hol-1/9$ gcc 9.c
 harshjain@lima-default:~/ss_hol-1/9$ ./a.out
 stat: No such file or directory

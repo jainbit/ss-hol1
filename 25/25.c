@@ -60,7 +60,7 @@ Sample Output:
 ----------------------------------------------------------------------------
 harshjain@lima-default:~/ss_hol-1$ mkdir 25
 harshjain@lima-default:~/ss_hol-1$ cd 25
-harshjain@lima-default:~/ss_hol-1/25$ vim 25.c
+harshjain@lima-default:~/ss_hol-1/25$ touch 25.c
 harshjain@lima-default:~/ss_hol-1/25$ gcc 25.c
 harshjain@lima-default:~/ss_hol-1/25$ ./a.out
 First child started. PID = 356959

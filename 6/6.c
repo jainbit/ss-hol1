@@ -27,7 +27,7 @@ Sample Output:
 ----------------------------------------------------------------------------
 harshjain@lima-default:~/ss_hol-1/5$ cd ..
 harshjain@lima-default:~/ss_hol-1$ cd 6
-harshjain@lima-default:~/ss_hol-1/6$ vim 6.c
+harshjain@lima-default:~/ss_hol-1/6$ touch 6.c
 harshjain@lima-default:~/ss_hol-1/6$ gcc 6.c
 harshjain@lima-default:~/ss_hol-1/6$ ./a.out
 hello jabalpur

@@ -27,7 +27,7 @@ int main() {
 Sample Output:
 ----------------------------------------------------------------------------
 harshjain@lima-default:~/ss_hol-1$ cd 26
-harshjain@lima-default:~/ss_hol-1/26$ vim 26.c
+harshjain@lima-default:~/ss_hol-1/26$ touch 26.c
 harshjain@lima-default:~/ss_hol-1/26$ gcc 26.c
 harshjain@lima-default:~/ss_hol-1/26$ ./a.out
 Parent PID = 357086: Executing ls -l /tmp

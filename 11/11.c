@@ -47,7 +47,7 @@ Sample Output:
 ----------------------------------------------------------------------------
 
 harshjain@lima-default:~/ss_hol-1$ cd 11
-harshjain@lima-default:~/ss_hol-1/11$ vim 11.c
+harshjain@lima-default:~/ss_hol-1/11$ touch 11.c
 harshjain@lima-default:~/ss_hol-1/11$ gcc 11.c
 harshjain@lima-default:~/ss_hol-1/11$ ./a.out
 harshjain@lima-default:~/ss_hol-1/11$ cat append.txt

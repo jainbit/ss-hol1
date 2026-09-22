@@ -51,7 +51,7 @@ int main() {
 ============================================================================
 Sample Output:
 ----------------------------------------------------------------------------
-harshjain@lima-default:~/ss_hol-1/29$ vim 29.c
+harshjain@lima-default:~/ss_hol-1/29$ touch 29.c
 harshjain@lima-default:~/ss_hol-1/29$ gcc 29.c
 harshjain@lima-default:~/ss_hol-1/29$ ./a.out
 Current scheduling policy of PID 357441: SCHED_OTHER

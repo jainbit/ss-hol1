@@ -46,7 +46,7 @@ Sample Output:
 
 harshjain@lima-default:~/ss_hol-1$ mkdir 4
 harshjain@lima-default:~/ss_hol-1$ cd 4
-harshjain@lima-default:~/ss_hol-1/4$ vim 4.c
+harshjain@lima-default:~/ss_hol-1/4$ touch 4.c
 harshjain@lima-default:~/ss_hol-1/4$ gcc 4.c
 harshjain@lima-default:~/ss_hol-1/4$ touch myfile.txt
 harshjain@lima-default:~/ss_hol-1/4$ ./a.out

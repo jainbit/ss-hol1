@@ -32,7 +32,7 @@ Sample Output:
 ----------------------------------------------------------------------------
 
 harshjain@lima-default:~/ss_hol-1$ cd 12
-harshjain@lima-default:~/ss_hol-1/12$ vim 12.c
+harshjain@lima-default:~/ss_hol-1/12$ touch 12.c
 harshjain@lima-default:~/ss_hol-1/12$ gcc 12.c
 harshjain@lima-default:~/ss_hol-1/12$ ./a.out
 Read & Write

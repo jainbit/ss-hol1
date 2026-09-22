@@ -33,7 +33,7 @@ Sample Output:
 ----------------------------------------------------------------------------
 harshjain@lima-default:~/ss_hol-1$ mkdir 21
 harshjain@lima-default:~/ss_hol-1$ cd 21
-harshjain@lima-default:~/ss_hol-1/21$ vim 21.c
+harshjain@lima-default:~/ss_hol-1/21$ touch 21.c
 harshjain@lima-default:~/ss_hol-1/21$ gcc 21.c
 harshjain@lima-default:~/ss_hol-1/21$ ./a.out
 Parent process: PID = 356059, Child PID = 356060
