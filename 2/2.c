@@ -34,9 +34,12 @@ harshjain@lima-default:~/ss_hol-1/2$ ./a.out &
 # Inspect process details from /proc
 harshjain@lima-default:~/ss_hol-1/2$ cat /proc/587/status
 Name:   a.out
+Umask:  0002
 State:  S (sleeping)
-Pid:    587
-PPid:   632
+Tgid:   362912
+Ngid:   0
+Pid:    362912
+PPid:   362159~
 ...
 
 # Check command line
