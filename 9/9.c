@@ -62,8 +62,8 @@ harshjain@lima-default:~/ss_hol-1/9$ ./a.out
 File: f1.txt
 File Size: 29 bytes
 Number of Links: 1
-File inode: 4222124652209298
-File Permissions: -rwxrwxrwx
+File inode: 788535
+File Permissions: -rw-rw-r--
 Last Access: Tue Sep 15 13:50:50 2026
 Last Modification: Tue Sep 15 13:50:50 2026
 Last Status Change: Tue Sep 15 13:50:50 2026

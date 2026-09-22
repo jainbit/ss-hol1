@@ -59,11 +59,11 @@ int main() {
 Sample Output:
 ----------------------------------------------------------------------------
 harshjain@lima-default:~/ss_hol-1$ cd 7
-harshjain@lima-default:~/ss_hol-1/7$ echo "hiii this is the content of f1.txt" > file1.txt
+harshjain@lima-default:~/ss_hol-1/7$ echo "hiii this is the content of f1.txt" > f1.txt
 harshjain@lima-default:~/ss_hol-1/7$ touch 7.c
 harshjain@lima-default:~/ss_hol-1/7$ gcc 7.c
 harshjain@lima-default:~/ss_hol-1/7$ ./a.out
-harshjain@lima-default:~/ss_hol-1/7$ cat file2.txt
+harshjain@lima-default:~/ss_hol-1/7$ cat f2.txt
 hiii this is the content of f1.txt
 ============================================================================
 */

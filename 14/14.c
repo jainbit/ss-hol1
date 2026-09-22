@@ -14,12 +14,12 @@ int main() {
     struct stat st;
 
     // Use lstat to get file info
-    if (lstat("file1.txt", &st) < 0) {
+    if (lstat("file.txt", &st) < 0) {
         perror("lstat");
         return 1;
     }
 
-    printf("File type of 'file1.txt': ");
+    printf("File type of 'file.txt': ");
 
     if (S_ISREG(st.st_mode))
         printf("Regular File\n");

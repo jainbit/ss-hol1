@@ -43,7 +43,7 @@ harshjain@lima-default:~/ss_hol-1/10$ touch 10.c
 harshjain@lima-default:~/ss_hol-1/10$ gcc 10.c
 harshjain@lima-default:~/ss_hol-1/10$ ./a.out
 harshjain@lima-default:~/ss_hol-1/10$ ls -l hole.txt
--rwxrwxrwx 1 harshjain harshjain 20 Sep 15 13:52 hole.txt
+-rw-rw-r-- 1 harshjain harshjain 20 Sep 15 13:52 hole.txt
 harshjain@lima-default:~/ss_hol-1/10$ od -c hole.txt
 0000000   H   e   l   l   o  \0  \0  \0  \0  \0  \0  \0  \0  \0  \0   W
 0000020   o   r   l   d
