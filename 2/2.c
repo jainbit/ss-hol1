@@ -32,7 +32,7 @@ harshjain@lima-default:~/ss_hol-1/2$ ./a.out &
 [1] 587
 
 # Inspect process details from /proc
-harshjain@lima-default:~/ss_hol-1/2$ cat /proc/587/status
+harshjain@lima-default:~/ss_hol-1/2$ cat /proc/362912/status
 Name:   a.out
 Umask:  0002
 State:  S (sleeping)
@@ -43,11 +43,11 @@ PPid:   362159~
 ...
 
 # Check command line
-harshjain@lima-default:~/ss_hol-1/2$ cat /proc/587/cmdline
+harshjain@lima-default:~/ss_hol-1/2$ cat /proc/362912/cmdline
 ./a.out
 
 # Kill the background process
-harshjain@lima-default:~/ss_hol-1/2$ kill 587
+harshjain@lima-default:~/ss_hol-1/2$ kill 362912
 
 ----------------------------------------------------------------------------
 

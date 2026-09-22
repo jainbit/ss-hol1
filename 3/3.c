@@ -42,10 +42,10 @@ harshjain@lima-default:~/ss_hol-1/3$ gcc 3.c
 harshjain@lima-default:~/ss_hol-1/3$ ./a.out
 File created successfully. File Descriptor: 3
 harshjain@lima-default:~/ss_hol-1/3$ ls -l
-total 20
--rwxrwxrwx 1 harshjain harshjain  1212 Sep 14 13:22 3.c
--rwxrwxrwx 1 harshjain harshjain 16088 Sep 14 13:22 a.out
--rwxrwxrwx 1 harshjain harshjain     0 Sep 14 13:23 myfile.txt
+total 36
+-rw-rw-r-- 1 harshjain harshjain  1513 Sep 22 16:46 3.c
+-rw-rw-r-- 1 harshjain harshjain 16088 Sep 19 04:23 3.out
+-rw-rw-r-- 1 harshjain harshjain     0 Sep 19 04:23 3.txt
 harshjain@lima-default:~/ss_hol-1/3$
 ============================================================================
 */

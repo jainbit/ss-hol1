@@ -72,7 +72,7 @@ harshjain@lima-default:~/ss_hol-1/5$ echo $! 366892
 
 # Check the file descriptor table
 
-dabhi-rushirajsinh@dabhi-rushirajsinh-QEMU-Virtual-Machine:~/Hand_On_List/5$ ls -l /proc/721/fd
+
 
 total 0
 lrwx------ 1 harshjain harshjain 64 Sep 22 16:09 0 -> /dev/pts/1
