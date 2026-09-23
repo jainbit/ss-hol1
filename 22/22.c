@@ -30,7 +30,8 @@ int main() {
         write(fd, "Child writing...\n", strlen("Child writing...\n"));
     } else {
         // Parent process
-        wait(NULL);
+        // wait(NULL);
+        sleep(1);
         write(fd, "Parent writing...\n", strlen("Parent writing...\n"));
     }
 
