@@ -54,8 +54,8 @@ harshjain@lima-default:~/ss_hol-1/13$ touch 13.c
 harshjain@lima-default:~/ss_hol-1/13$ gcc 13.c
 harshjain@lima-default:~/ss_hol-1/13$ ./a.out
 You have 10 seconds to type something:
-hii jabalpurr
-You typed: hii jabalpur
+hjain44
+You typed: hjain44
 
 ============================================================================
 */

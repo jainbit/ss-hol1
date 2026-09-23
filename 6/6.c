@@ -30,8 +30,8 @@ harshjain@lima-default:~/ss_hol-1$ cd 6
 harshjain@lima-default:~/ss_hol-1/6$ touch 6.c
 harshjain@lima-default:~/ss_hol-1/6$ gcc 6.c
 harshjain@lima-default:~/ss_hol-1/6$ ./a.out
-hello jabalpur
-hello jabalpur
+hello 
+hello 
 hello 2nd time
 hello 2nd time
 

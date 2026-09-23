@@ -35,8 +35,8 @@ Sample Output:
 harshjain@lima-default:~/ss_hol-1/20$ touch 20.c
 harshjain@lima-default:~/ss_hol-1/20$ gcc 20.c
 harshjain@lima-default:~/ss_hol-1/20$ ./a.out
-Current priority of process 920: 0
-New priority of process 920: 5
+Current priority of process 378849: 0
+New priority of process 378849: 5
 ============================================================================
 */
 

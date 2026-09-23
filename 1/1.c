@@ -32,12 +32,14 @@ harshjain@lima-default:~/ss_hol-1/1$ touch f1.txt
 harshjain@lima-default:~/ss_hol-1/1$ gcc 1.c
 harshjain@lima-default:~/ss_hol-1/1$ ./a.out
 harshjain@lima-default:~/ss_hol-1/1$ ls -l
-total 20
--rwxrwxrwx 1 harshjain harshjain  1396 Sep 14 13:10 1.c
--rwxrwxrwx 1 harshjain harshjain 16024 Sep 14 13:10 a.out
--rwxrwxrwx 2 harshjain harshjain     0 Sep 14 13:10 f1.txt
--rwxrwxrwx 2 harshjain harshjain     0 Sep 14 13:10 hardlink_f1
-lrwxrwxrwx 1 harshjain harshjain     6 Sep 14 13:11 softlink_f1 -> f1.txt
+total 36
+-rw-rw-r-- 1 harshjain harshjain  1766 Sep 22 16:46 1.c
+-rw-rw-r-- 1 harshjain harshjain 16024 Sep 19 04:23 1.out
+-rwxrwxr-x 1 harshjain harshjain 70512 Sep 21 17:51 a.out
+-rw-rw-r-- 2 harshjain harshjain     0 Sep 19 04:23 f1.txt
+-rw-rw-r-- 2 harshjain harshjain     0 Sep 19 04:23 hardlink_f1
+prw-rw-r-- 1 harshjain harshjain     0 Sep 19 04:40 myfifo
+-rw-rw-r-- 1 harshjain harshjain     0 Sep 19 04:23 softlink_f1
 
 # Equivalent Linux commands:
 harshjain@lima-default:~/ss_hol-1/1$ ln -s f1.txt softlink_f1

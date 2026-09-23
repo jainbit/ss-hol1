@@ -11,6 +11,7 @@ Date : 18th Sep, 2026.
 #include <unistd.h>
 #include <fcntl.h>
 #include <string.h>
+#include <sys/wait.h>
 
 int main() {
     int fd = open("shared.txt", O_CREAT | O_WRONLY | O_TRUNC, 0644);
@@ -29,6 +30,7 @@ int main() {
         write(fd, "Child writing...\n", strlen("Child writing...\n"));
     } else {
         // Parent process
+        wait(NULL);
         write(fd, "Parent writing...\n", strlen("Parent writing...\n"));
     }
 
