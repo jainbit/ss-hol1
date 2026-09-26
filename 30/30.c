@@ -38,6 +38,8 @@ int main(int argc, char *argv[]) {
     setsid();
     chdir("/");
     umask(0);
+    
+   
 
     while (1) {
         time_t now = time(NULL);

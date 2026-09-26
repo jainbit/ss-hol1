@@ -45,6 +45,16 @@ ps -l | grep 23
 F S   UID     PID    PPID  C PRI  NI ADDR SZ WCHAN  TTY          TIME CMD
 0 S   501  356591  353701  0  80   0 -  2273 do_wai pts/1    00:00:00 bash
 4 R   501  356654  356591 99  80   0 -  2447 -      pts/1    00:00:00 ps
+ terminal 1
+ harshjain@lima-default:~/ss_hol-1/23$ ./a.out
+Parent process sleeping. PID = 389274
+Child process exiting. PID = 389275
+
+terminal 2
+harshjain@lima-default:~/ss_hol-1/23$ ps -p 389275 -o pid,ppid,stat
+e,cmd (child id) also /proc/status
+    PID    PPID S CMD
+ 389275  389274 Z [a.out] <defunct>
 
 ============================================================================
 */

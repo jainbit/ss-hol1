@@ -37,7 +37,7 @@ Sample Output:
 
 harshjain@lima-default:~/ss_hol-1$ cd 19
 harshjain@lima-default:~/ss_hol-1/19$ touch 19.c
-
+ not runnnig in mac
 ============================================================================
 */
 
